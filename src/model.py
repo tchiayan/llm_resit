@@ -72,6 +72,6 @@ def llm_resit_ocr(image: bytes) -> Receipt:
 
     return result.final_output
 
-__name__ = [
+__all__ = [
     "llm_resit_ocr",
 ]

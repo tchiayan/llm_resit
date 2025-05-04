@@ -17,3 +17,7 @@ def load_image_as_base64(image_bytes: bytes) -> str:
     img_str = base64.b64encode(image_bytes).decode('utf-8')
     
     return f"data:image/jpeg;base64,{img_str}"
+
+__all__ = [
+    "load_image_as_base64",
+]
